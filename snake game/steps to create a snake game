@@ -1,0 +1,19 @@
+main.py is work fine
+the snake.py is intentionally it is not working well
+the food is not generating. there is no condition for collision between the snake and the food
+
+1. import the necessary module first
+    a. pygame
+        generally used to create  a game materially like surface, sound, move, events
+    b. time
+
+    c. random
+        to generate a a food position randomly
+2. Define the constant that used in the whole game process
+    - in my case width and height for my window or surface
+    - snake_size that is initial snake size to make snake body
+    - game_over and game_close game over the main loop that control the full flow
+        the game_close only check if the user close with close button and display the message
+    - x1 and y1 is update position of the snake they updated always when the user has an event key
+    - x1_change and y1_change is a temporary position container for the snake then they added to the x1 and y1 to update the position
+    -
